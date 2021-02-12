@@ -1,6 +1,6 @@
 var color1 = document.getElementById("c1");
 var color2 = document.getElementById("c2");
-var css = document.querySelector("h3");
+var css = document.getElementById("code");
 var body = document.getElementById("gradient");
 var button = document.getElementById("random");
 // var left = document.getElementById("left");

@@ -15,9 +15,17 @@
   <body id="gradient">
     <h1>Gradientiser</h1>
     <h2>CSS Gradient Background Generator</h2>
+    <p>
+      Choose the colors you want by cliking on the color picker tool, or to get
+      random color click the button or reload the page. Copy the code and paste
+      it in your CSS under body tag or any div tag.
+    </p>
+    <h3 class="lable">color 1:</h3>
     <input type="color" name="color1" value="#ff0000" id="c1" />
+    <h3 class="lable">color 2:</h3>
     <input type="color" name="color2" value="#ffff00" id="c2" />
-    <br />
+
+    <h3>or</h3>
     <!-- <fieldset>
       <legend>choose direction</legend>
       <label for="left">left:</label>
@@ -25,9 +33,9 @@
       <label for="right">right:</label>
       <input type="radio" id="right" name="direction" value="to right" />
     </fieldset> -->
-    <button id="random">click to get random</button>
-    <h2>Current CSS Background</h2>
-    <h3></h3>
+    <button id="random">click to get a random bg</button>
+    <h2>CSS code for curent background 👇</h2>
+    <h3 id="code"></h3>
     <script type="text/javascript" src="backgroundgen.js"></script>
   </body>
 </html>
