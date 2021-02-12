@@ -33,3 +33,4 @@ function randomgradient() {
 color1.addEventListener("input", setgradient);
 color2.addEventListener("input", setgradient);
 button.addEventListener("click", randomgradient);
+window.onload = randomgradient();
