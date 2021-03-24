@@ -3,12 +3,14 @@ body {
   padding: 0px;
   font-family: "Yanone Kaffeesatz", sans-serif;
   color: rgba(0, 0, 0, 0.5);
-  text-align: center;
+
   /* text-transform: uppercase; */
   /* top: 15%; */
   background: linear-gradient(to right, red, yellow); /* Standard syntax */
 }
-
+.container {
+  text-align: center;
+}
 h1 {
   font-size: 4rem;
   color: rgba(0, 0, 0, 0.5);
