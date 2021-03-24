@@ -24,14 +24,25 @@ h3 {
   text-transform: none;
   letter-spacing: 0.01em;
 }
+
 .lable {
   display: inline-block;
+  font-size: 1em;
 }
+
 input {
   margin: 0.5em 0.5em 0.5em 0em;
   width: 50px;
   height: 30px;
 }
+
+[type="radio"] {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin-right: 0.5em;
+}
+
 button {
   padding: 1em;
   width: 200px;
