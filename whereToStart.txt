@@ -1,0 +1,5 @@
+ event listner for radio button
+
+ geting the checked value from radio button
+
+ make it modularise.
