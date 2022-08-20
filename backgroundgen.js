@@ -37,6 +37,13 @@ function setgradient() {
 function randomgradient() {
   let randomColor1 = getRandomColor();
   let randomColor2 = getRandomColor();
+
+  while(randomColor1==randomColor2)
+  {
+     randomColor1 = getRandomColor();
+     randomColor2 = getRandomColor();
+  }
+
   color1.value = randomColor1;
   color2.value = randomColor2;
   body.style.background =
