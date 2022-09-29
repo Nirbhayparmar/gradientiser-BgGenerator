@@ -11,18 +11,16 @@ We have some functionalities in mind and we have issued them and there is a *mil
 
 Contributing to a project on Github is pretty straight forward. If this is you're first time, these are the steps you should take.
 
-- Fork this repo.
+1. fork the repository to your account and make clone of it.
+   - to fork the repository follow this [tutorial.](https://www.freecodecamp.org/news/how-to-fork-a-github-repository/)
+   - to clone the repository follow this [tutorial.](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)
+2. add this repository to upstream and run git pull on main branch.
+3. create a new branch from main and add your changes to it, commit them with meaningful commit message and open a pull request on this repo.
+   - if you don't know all of this, don't worry, follow this [tutorial](https://www.youtube.com/watch?v=c6b6B9oN4Vg) to know all these things.
 
-And that's it! Read the code available and change the part you don't like! You're change should not break the existing code and should pass the tests.
+And that's it! Read the code available and change the part you don't like! You're change should not break the existing code.
 
 If you're adding a new functionality, start from the branch **master**. It would be a better practice to create a new branch and work in there.
 
 When you're done, submit a pull request and for one of the maintainers to check it out. We would let you know if there is any problem or any changes that should be considered.
 
-### Tests
-
-We've written tests and you can run them to assure the stability of the code, just try `command`. If you're adding a new functionality please write a test for it.
-
-### Documentation
-
-Every chunk of code that may be hard to understand has some comments above it. If you write some new code or change some part of the existing code in a way that it would not be functional without changing it's usages, it needs to be documented.
