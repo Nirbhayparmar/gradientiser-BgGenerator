@@ -51,9 +51,14 @@ button {
   font-family: "Yanone Kaffeesatz", sans-serif;
   border: 5px solid rgba(0, 0, 0, 0.5);
   border-radius: 35px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(198, 198, 198, 0.5);
 }
 
+span{
+  text-shadow: 0 0 2px rgb(255, 255, 0); /* horizontal-offset vertical-offset 'blur' colour */
+  -moz-text-shadow: 0 0 2px rgb(255, 255, 0);
+  -webkit-text-shadow: 0 0 2px rgb(255, 255, 0);
+}
 .githublogo {
   
   width: 100%;
