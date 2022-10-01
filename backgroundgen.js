@@ -17,7 +17,15 @@ function radioValue() {
   for (let j = 0; j < radioButton.length; j++) {
     if (radioButton[j].checked) {
       direction = radioButton[j].value;
-      console.log(direction);
+      body.style.background =
+        "linear-gradient(" +
+        direction +
+        ", " +
+        color1.value +
+        ", " +
+        color2.value +
+        ")";
+      css.textContent = body.style.background + ";";
     }
   }
 }
@@ -48,7 +56,13 @@ function randomgradient() {
   color2.value = randomColor2;
   let rand_direction = directions[Math.floor(Math.random() * 4)];
   body.style.background =
-    "linear-gradient(" + rand_direction + ", " + randomColor1 + ", " + randomColor2 + ")";
+    "linear-gradient(" +
+    rand_direction +
+    ", " +
+    randomColor1 +
+    ", " +
+    randomColor2 +
+    ")";
   css.textContent = body.style.background + ";";
 }
 
