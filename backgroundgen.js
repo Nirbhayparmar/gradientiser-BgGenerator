@@ -6,6 +6,7 @@ let button = document.getElementById("random");
 let radioGroup = document.getElementById("radioIn");
 let radioButton = radioGroup.getElementsByTagName("input");
 let direction;
+const directions = ["0deg", "90deg", "180deg", "270deg"];
 
 //the event listner is to be added.
 for (let x = 0; x < radioButton.length; x++) {
@@ -16,7 +17,7 @@ function radioValue() {
   for (let j = 0; j < radioButton.length; j++) {
     if (radioButton[j].checked) {
       direction = radioButton[j].value;
-      //console.log(direction);
+      console.log(direction);
     }
   }
 }
@@ -38,16 +39,16 @@ function randomgradient() {
   let randomColor1 = getRandomColor();
   let randomColor2 = getRandomColor();
 
-  while(randomColor1==randomColor2)
-  {
-     randomColor1 = getRandomColor();
-     randomColor2 = getRandomColor();
+  while (randomColor1 == randomColor2) {
+    randomColor1 = getRandomColor();
+    randomColor2 = getRandomColor();
   }
 
   color1.value = randomColor1;
   color2.value = randomColor2;
+  let rand_direction = directions[Math.floor(Math.random() * 4)];
   body.style.background =
-    "linear-gradient(to right, " + randomColor1 + ", " + randomColor2 + ")";
+    "linear-gradient(" + rand_direction + ", " + randomColor1 + ", " + randomColor2 + ")";
   css.textContent = body.style.background + ";";
 }
 
