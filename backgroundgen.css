@@ -20,6 +20,12 @@ body {
   background: linear-gradient(to right, red, yellow); /* Standard syntax */
 }
 
+#radioIn{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .container {
   text-align: center;
 }
@@ -127,7 +133,28 @@ span{
     overflow-x: hidden;
     position: relative;
   }
-  
+
+  #radioIn{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .radio-btn{
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .radio-btn label{
+    background-color: #ffffff70;
+    padding: 2.5px 5px;
+    border-radius: 5px;
+    font-size: 0.7rem;
+    margin-right: 5px;
+    font-weight: 500;
+  }
+
   .container {
     text-align: center;
     width: 100vw;
@@ -233,4 +260,6 @@ span{
     height: 50px;
     width: auto;
   }
+
+  
 }
