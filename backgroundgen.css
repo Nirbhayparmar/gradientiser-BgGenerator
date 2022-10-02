@@ -13,7 +13,7 @@ body {
 }
 h1 {
   font-size: 4rem;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.637);
   text-align: center;
   width: 100%;
 }
@@ -27,7 +27,7 @@ h3 {
 
 .lable {
   display: inline-block;
-  font-size: 1em;
+  font-size: 1.3em;
 }
 
 input {
@@ -47,11 +47,12 @@ button {
   padding: 1em;
   width: 200px;
   height: 65px;
-  font-size: 1em;
+  font-size: 1.2em;
   font-family: "Yanone Kaffeesatz", sans-serif;
   border: 5px solid rgba(0, 0, 0, 0.5);
-  border-radius: 35px;
-  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  background-color: #333;
+  color: white;
 }
 
 .githublogo {
