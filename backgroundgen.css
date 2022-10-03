@@ -9,6 +9,7 @@
 }
 
 body {
+
   margin: 0px;
   padding: 0px;
   font-family: 'Poppins', sans-serif;
@@ -18,6 +19,7 @@ body {
   /* text-transform: uppercase; */
   /* top: 15%; */
   background: linear-gradient(to right, red, yellow); /* Standard syntax */
+
 }
 
 #radioIn{
@@ -27,7 +29,7 @@ body {
 }
 
 .container {
-  text-align: center;
+	text-align: center;
 }
 
 .container p{
@@ -38,6 +40,7 @@ body {
 }
 
 h1 {
+
   font-size: 4rem;
   color: rgb(0, 0, 0);
   text-align: center;
@@ -65,22 +68,24 @@ h3 {
 
 .label {
   display: inline-block;
+
 }
 
 input {
-  margin: 0.5em 0.5em 0.5em 0em;
-  width: 50px;
-  height: 30px;
+	margin: 0.5em 0.5em 0.5em 0em;
+	width: 50px;
+	height: 30px;
 }
 
 [type="radio"] {
-  display: inline-block;
-  width: 15px;
-  height: 15px;
-  margin-right: 0.5em;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	margin-right: 0.5em;
 }
 
 button {
+
   padding: 1em;
   font-size: 0.75rem;
   border: 1px solid rgba(0, 0, 0, 0);
@@ -100,12 +105,13 @@ button {
 button:hover {
   background-color: grey;
   transition-duration: 250ms;
+
 }
 
-span{
-  text-shadow: 0 0 2px rgb(255, 255, 0); /* horizontal-offset vertical-offset 'blur' colour */
-  -moz-text-shadow: 0 0 2px rgb(255, 255, 0);
-  -webkit-text-shadow: 0 0 2px rgb(255, 255, 0);
+span {
+	text-shadow: 0 0 2px rgb(255, 255, 0); /* horizontal-offset vertical-offset 'blur' colour */
+	-moz-text-shadow: 0 0 2px rgb(255, 255, 0);
+	-webkit-text-shadow: 0 0 2px rgb(255, 255, 0);
 }
 .githublogo {
   position: absolute;
@@ -115,15 +121,18 @@ span{
   display: flex;
   justify-content: center;
   bottom: 20px;
+
 }
 /* 
 .githublogo > a{
   justify-items: center;
 } */
 
+
 .githublogo > a >img{
   height: 50px;
   width: auto;
+
 }
 
 @media screen and (max-width: 480px) {
