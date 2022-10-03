@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gradientiser</title>
-
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap"
@@ -17,34 +16,44 @@
       <h1>Gradientiser</h1>
       <h2>CSS Gradient Background Generator</h2>
       <p>
-        Choose the colors you want by cliking on the color picker tool, or to
+        Choose the colors you want by clicking on the color picker tool, or to
         get random color click the button or reload the page. Copy the code and
         paste it in your CSS under body tag or any div tag.
       </p>
-      <h3 class="lable">color 1:</h3>
+      <h3 class="label">color 1:</h3>
       <input type="color" name="color1" value="#ff0000" id="c1" />
-      <h3 class="lable">color 2:</h3>
+      <h3 class="label">color 2:</h3>
       <input type="color" name="color2" value="#ffff00" id="c2" />
 
       <h3>or</h3>
 
       <div id="radioIn">
-        <label for="left">right to left:</label>
-        <input type="radio" id="left" name="direction" value="left" />
-        <label for="right">left to right:</label>
-        <input type="radio" id="right" name="direction" value="right" checked />
-        <label for="top">bottom to up:</label>
-        <input type="radio" id="top" name="direction" value="top" />
-        <label for="bottom">top to bottom:</label>
-        <input type="radio" id="bottom" name="direction" value="bottom" />
+        <div class="radio-btn">
+          <label for="left">Right to Left :</label>
+          <input type="radio" id="left" name="direction" value="270deg" />
+        </div>
+        <div class="radio-btn">
+          <label for="right">Left to Right :</label>
+          <input type="radio" id="right" name="direction" value="90deg" checked />  
+        </div>
+        <div class="radio-btn">
+          <label for="top">Bottom to Up :</label>
+          <input type="radio" id="top" name="direction" value="0deg" />
+        </div>
+        <div class="radio-btn">
+          <label for="bottom">Top to Bottom :</label>
+          <input type="radio" id="bottom" name="direction" value="180deg" />
+        </div>
       </div>
       <br />
+
       <button id="random">click to get a random bg</button>
-      <h2>CSS code for curent background 👇</h2>
+
+      <h2>CSS code for current background <span>👇</span></h2>
       <h3 id="code"></h3>
       <div class="githublogo">
-      <a href="https://github.com/Nirbhayparmar/gradientiser-BgGenerator"><img src="Octocat.png" alt="github_logo"></a>
-    </div>
+        <a href="https://github.com/Nirbhayparmar/gradientiser-BgGenerator"><img src="https://linuxnewbieguide.org/wp-content/uploads/2017/03/github-logo.png" alt="github_logo"></a>
+      </div>
     </div>
     <script type="text/javascript" src="backgroundgen.js"></script>
   </body>
