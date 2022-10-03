@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gradientiser</title>
-
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap"
@@ -29,22 +28,32 @@
       <h3>or</h3>
 
       <div id="radioIn">
-        <label for="left">right to left:</label>
-        <input type="radio" id="left" name="direction" value="270deg" />
-        <label for="right">left to right:</label>
-        <input type="radio" id="right" name="direction" value="90deg" checked />
-        <label for="top">bottom to up:</label>
-        <input type="radio" id="top" name="direction" value="0deg" />
-        <label for="bottom">top to bottom:</label>
-        <input type="radio" id="bottom" name="direction" value="180deg" />
+        <div class="radio-btn">
+          <label for="left">Right to Left :</label>
+          <input type="radio" id="left" name="direction" value="270deg" />
+        </div>
+        <div class="radio-btn">
+          <label for="right">Left to Right :</label>
+          <input type="radio" id="right" name="direction" value="90deg" checked />  
+        </div>
+        <div class="radio-btn">
+          <label for="top">Bottom to Up :</label>
+          <input type="radio" id="top" name="direction" value="0deg" />
+        </div>
+        <div class="radio-btn">
+          <label for="bottom">Top to Bottom :</label>
+          <input type="radio" id="bottom" name="direction" value="180deg" />
+        </div>
       </div>
       <br />
+
       <button id="random">click to get a random bg</button>
+
       <h2>CSS code for current background <span>👇</span></h2>
       <h3 id="code"></h3>
       <div class="githublogo">
-      <a href="https://github.com/Nirbhayparmar/gradientiser-BgGenerator"><img src="Octocat.png" alt="github_logo"></a>
-    </div>
+        <a href="https://github.com/Nirbhayparmar/gradientiser-BgGenerator"><img src="https://linuxnewbieguide.org/wp-content/uploads/2017/03/github-logo.png" alt="github_logo"></a>
+      </div>
     </div>
     <script type="text/javascript" src="backgroundgen.js"></script>
   </body>
