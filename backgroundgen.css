@@ -1,19 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*, ::after, ::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
 body {
   margin: 0px;
   padding: 0px;
-  font-family: "Yanone Kaffeesatz", sans-serif;
-  color: rgba(0, 0, 0, 0.5);
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  padding-top: 40px;
 
   /* text-transform: uppercase; */
   /* top: 15%; */
   background: linear-gradient(to right, red, yellow); /* Standard syntax */
 }
+
+#radioIn{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .container {
   text-align: center;
 }
+
+.container p{
+    max-width: 80vw;
+    margin: auto;
+    font-weight: 200;
+    margin-bottom: 2rem;
+}
+
 h1 {
   font-size: 4rem;
-  color: rgba(0, 0, 0, 0.5);
+  color: rgb(0, 0, 0);
   text-align: center;
   width: 100%;
 }
@@ -23,11 +49,22 @@ h3 {
   text-align: center;
   text-transform: none;
   letter-spacing: 0.01em;
+  margin: 5px auto;
+  font-weight: 500;
+}
+
+#code{
+  background-color: rgb(255, 255, 255);
+  max-width: 40vw;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 .label {
   display: inline-block;
-  font-size: 1em;
 }
 
 input {
@@ -45,13 +82,24 @@ input {
 
 button {
   padding: 1em;
-  width: 200px;
-  height: 65px;
-  font-size: 1em;
-  font-family: "Yanone Kaffeesatz", sans-serif;
-  border: 5px solid rgba(0, 0, 0, 0.5);
+  font-size: 0.75rem;
+  border: 1px solid rgba(0, 0, 0, 0);
   border-radius: 35px;
-  background-color: rgba(198, 198, 198, 0.5);
+  background-color: rgb(229, 186, 186);
+  margin: 30px 0 20px 0;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  color: white;
+  cursor: pointer;
+  -webkit-box-shadow: 0px 0px 10px 1px rgb(82 69 69);
+  -moz-box-shadow: 0px 0px 10px 1px rgb(82 69 69);
+  box-shadow: 0px 0px 10px 1px rgb(82 69 69);
+}
+
+button:hover {
+  background-color: grey;
+  transition-duration: 250ms;
 }
 
 span{
@@ -60,11 +108,13 @@ span{
   -webkit-text-shadow: 0 0 2px rgb(255, 255, 0);
 }
 .githublogo {
-  
+  position: absolute;
+  margin-top: 50px;
   width: 100%;
   padding: 0em;
   display: flex;
   justify-content: center;
+  bottom: 20px;
 }
 /* 
 .githublogo > a{
@@ -72,7 +122,144 @@ span{
 } */
 
 .githublogo > a >img{
-  height: 150px;
+  height: 50px;
   width: auto;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    padding: 10px;
+    padding-bottom: 120px;
+    overflow-x: hidden;
+    position: relative;
+  }
+
+  #radioIn{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .radio-btn{
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .radio-btn label{
+    background-color: #ffffff70;
+    padding: 2.5px 5px;
+    border-radius: 5px;
+    font-size: 0.7rem;
+    margin-right: 5px;
+    font-weight: 500;
+  }
+
+  .container {
+    text-align: center;
+    width: 100vw;
+  }
+  
+  .container p{
+      max-width: 90vw;
+      margin: auto;
+      font-weight: 200;
+      margin-bottom: 2rem;
+      font-size: 0.8rem;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 100%;
+  }
+
+  h2{
+    font-size: 1rem;
+  }
+  
+  h3 {
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    text-transform: none;
+    letter-spacing: 0.01em;
+    margin: 5px auto;
+    font-weight: 500;
+  }
+  
+  #code{
+    background-color: rgb(255, 255, 255);
+    max-width: 90vw;
+    margin: 10px auto;
+    padding: 20px 5px;
+    border-radius: 10px;
+    font-size: 0.75rem;
+    font-weight: 500;
+  }
+  
+  .label {
+    display: inline-block;
+  }
+  
+  input {
+    margin: 0.5em 0.5em 0.5em 0em;
+    width: 50px;
+    height: 30px;
+  }
+  
+  [type="radio"] {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 0.5em;
+  }
+  
+  button {
+    padding: 1em;
+    font-size: 0.65rem;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 35px;
+    background-color: rgb(229, 186, 186);
+    margin: 10px 0 50px 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    color: white;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 10px 1px rgb(82 69 69);
+    -moz-box-shadow: 0px 0px 10px 1px rgb(82 69 69);
+    box-shadow: 0px 0px 10px 1px rgb(82 69 69);
+  }
+  
+  button:hover {
+    background-color: grey;
+    transition-duration: 250ms;
+  }
+  
+  span{
+    text-shadow: 0 0 2px rgb(255, 255, 0); /* horizontal-offset vertical-offset 'blur' colour */
+    -moz-text-shadow: 0 0 2px rgb(255, 255, 0);
+    -webkit-text-shadow: 0 0 2px rgb(255, 255, 0);
+  }
+  .githublogo {
+    position: absolute;
+    margin-top: 50px;
+    width: 100%;
+    padding: 0em;
+    display: flex;
+    justify-content: center;
+    bottom: 20px;
+  }
+  /* 
+  .githublogo > a{
+    justify-items: center;
+  } */
+  
+  .githublogo > a >img{
+    height: 50px;
+    width: auto;
+  }
+
   
 }
