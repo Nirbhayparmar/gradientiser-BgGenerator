@@ -5,6 +5,7 @@ const css = document.getElementById("code");
 const body = document.getElementById("gradient");
 const button = document.getElementById("random");
 const radioGroup = document.getElementById("radioIn");
+const copyIcon = document.getElementById("copy-icon")
 const radioButton = radioGroup.getElementsByTagName("input");
 let direction;
 const directions = ["0deg", "90deg", "180deg", "270deg"];
@@ -52,6 +53,11 @@ function randomGradient() {
 	body.style.background = `linear-gradient(${rand_direction}, ${randomColor1}, ${randomColor2})`;
 	css.textContent = `${body.style.background};`;
 }
+copyIcon.addEventListener("click", function() {
+	navigator.clipboard.writeText(css.textContent)
+	css.classList.add("clicked")
+	setTimeout(() => {css.classList.remove("clicked")}, 400)
+})
 
 color1.addEventListener("input", setGradient);
 color2.addEventListener("input", setGradient);

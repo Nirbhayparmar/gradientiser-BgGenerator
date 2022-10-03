@@ -138,6 +138,39 @@ span {
   width: auto;
 
 }
+.code-container {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+#code {
+  position: relative;
+}
+#code::after {
+  content: 'copied!';
+  position: absolute;
+  font-weight: bold;
+  color: #000;
+  inset: 0 auto auto 0;
+  opacity: 0;
+}
+#code.clicked::after {
+  opacity: 1;
+  inset: -20px auto auto 0;
+  transition: opacity 300ms linear, inset 300ms linear;
+}
+#code {
+  width: max-content;
+  max-width: 70vw;
+  margin-inline: 0;
+}
+#copy-icon {
+  width: min(8%, 26px);
+  display: block;
+  cursor: pointer;
+  order: 2;
+}
 
 @media screen and (max-width: 480px) {
   body {
@@ -273,6 +306,10 @@ span {
     height: 50px;
     width: auto;
   }
-
-  
+  .code-container {
+    display: block;
+  }
+  #copy-icon {
+    margin-inline: auto 1.4em;
+  }
 }
