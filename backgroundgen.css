@@ -68,7 +68,7 @@ h3 {
 
 .label {
   display: inline-block;
-
+  font-size: 1.3em;
 }
 
 input {
@@ -86,10 +86,14 @@ input {
 
 button {
   padding: 1em;
+  width: 200px;
+  height: 65px;
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  border: 5px solid rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  background-color: #333;
+  color: white;
   font-size: 0.75rem;
-  border: 1px solid rgba(0, 0, 0, 0);
-  border-radius: 35px;
-  background-color: rgb(229, 186, 186);
   margin: 30px 0 20px 0;
   font-weight: 600;
   text-transform: uppercase;
@@ -104,6 +108,7 @@ button {
 button:hover {
   background-color: grey;
   transition-duration: 250ms;
+
 
 }
 
