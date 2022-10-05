@@ -1,7 +1,7 @@
 # gradientiser-BgGenerator
 
 
-This is a open source css gradient background generator. Hope it will help the community to get a beautiful background in just one click. The dynamic gradient backgroundIt is based on generating css from javascript dom manipulation. The randomly generated background is based on using inbuilt random function present in JavaScript and used it to generate hex codes for colors and make it work.
+This is a open source CSS gradient background generator. Hope it will help the community to get a beautiful background in just one click. The dynamic gradient backgroundIt is based on generating css from JavaScript dom manipulation. The randomly generated background is based on using inbuilt random function present in JavaScript and used it to generate hex codes for colors and make it work.
 
 This app helps you create a dynamic gradient background in a single click! 
 
@@ -13,7 +13,7 @@ This app helps you create a dynamic gradient background in a single click!
  
  ## How To Use
  
- -  You can just visit the [website](https://nirbhayparmar.github.io/gradientiser-BgGenerator/) where we we have hosted our code to pick the background of your choosing easily! 
+ -  You can just visit the [website](https://nirbhayparmar.github.io/gradientiser-BgGenerator/) where we have hosted our code to pick the background of your choosing easily! 
  
 The dynamic gradient background is based on generating the CSS via JavaScript DOM manipulation. We use the inbuilt random function present in JavaScript to randomly generate hex colors which we use to build our backgrounds! 
 
@@ -39,5 +39,5 @@ Head on over to our [Contributing Guide](https://github.com/Nirbhayparmar/gradie
   
   
 
-Visit this link to visit the live the website- [https://nirbhayparmar.github.io/gradientiser-BgGenerator/](https://nirbhayparmar.github.io/gradientiser-BgGenerator/)
+Visit the live website- [https://nirbhayparmar.github.io/gradientiser-BgGenerator/](https://nirbhayparmar.github.io/gradientiser-BgGenerator/)
 
