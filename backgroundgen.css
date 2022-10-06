@@ -40,6 +40,13 @@ body {
     margin-bottom: 2rem;
 }
 
+.content {
+  background-color: rgba(255,255,255,0.5);
+  width: fit-content;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 h1 {
 
   font-size: 4rem;
@@ -127,7 +134,7 @@ span {
   bottom: 20px;
 
 }
-/* 
+/*
 .githublogo > a{
   justify-items: center;
 } */
@@ -206,7 +213,7 @@ span {
     text-align: center;
     width: 100vw;
   }
-  
+
   .container p{
       max-width: 90vw;
       margin: auto;
@@ -214,7 +221,7 @@ span {
       margin-bottom: 2rem;
       font-size: 0.8rem;
   }
-  
+
   h1 {
     font-size: 2.5rem;
     color: rgb(0, 0, 0);
@@ -225,7 +232,7 @@ span {
   h2{
     font-size: 1rem;
   }
-  
+
   h3 {
     color: rgba(0, 0, 0, 0.5);
     text-align: center;
@@ -234,7 +241,7 @@ span {
     margin: 5px auto;
     font-weight: 500;
   }
-  
+
   #code{
     background-color: rgb(255, 255, 255);
     max-width: 90vw;
@@ -244,24 +251,24 @@ span {
     font-size: 0.75rem;
     font-weight: 500;
   }
-  
+
   .label {
     display: inline-block;
   }
-  
+
   input {
     margin: 0.5em 0.5em 0.5em 0em;
     width: 50px;
     height: 30px;
   }
-  
+
   [type="radio"] {
     display: inline-block;
     width: 15px;
     height: 15px;
     margin-right: 0.5em;
   }
-  
+
   button {
     padding: 1em;
     font-size: 0.65rem;
@@ -278,12 +285,12 @@ span {
     -moz-box-shadow: 0px 0px 10px 1px rgb(82 69 69);
     box-shadow: 0px 0px 10px 1px rgb(82 69 69);
   }
-  
+
   button:hover {
     background-color: grey;
     transition-duration: 250ms;
   }
-  
+
   span{
     text-shadow: 0 0 2px rgb(255, 255, 0); /* horizontal-offset vertical-offset 'blur' colour */
     -moz-text-shadow: 0 0 2px rgb(255, 255, 0);
@@ -296,11 +303,11 @@ span {
     justify-content: center;
     bottom: 20px;
   }
-  /* 
+  /*
   .githublogo > a{
     justify-items: center;
   } */
-  
+
   .githublogo > a >img{
     height: 50px;
     width: auto;
