@@ -15,6 +15,7 @@ body {
   font-family: 'Poppins', sans-serif;
   color: #333;
   padding-top: 40px;
+  min-height: 100vh;
 
   /* text-transform: uppercase; */
   /* top: 15%; */
@@ -118,8 +119,7 @@ span {
 	-webkit-text-shadow: 0 0 2px rgb(255, 255, 0);
 }
 .githublogo {
-  position: absolute;
-  margin-top: 50px;
+  margin-top: 1em;
   width: 100%;
   padding: 0em;
   display: flex;
@@ -137,6 +137,40 @@ span {
   height: 50px;
   width: auto;
 
+}
+.code-container {
+  margin-top: 1em;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+}
+#code {
+  position: relative;
+}
+#code::after {
+  content: 'copied!';
+  position: absolute;
+  font-weight: bold;
+  color: #000;
+  inset: 0 auto auto 0;
+  opacity: 0;
+}
+#code.clicked::after {
+  opacity: 1;
+  inset: -20px auto auto 0;
+  transition: opacity 300ms linear, inset 300ms linear;
+}
+#code {
+  width: max-content;
+  max-width: 70vw;
+  margin-inline: 0;
+  font-weight: bold;
+}
+#copy-icon {
+  width: min(8%, 26px);
+  display: block;
+  cursor: pointer;
+  order: 2;
 }
 
 @media screen and (max-width: 480px) {
@@ -256,8 +290,6 @@ span {
     -webkit-text-shadow: 0 0 2px rgb(255, 255, 0);
   }
   .githublogo {
-    position: absolute;
-    margin-top: 50px;
     width: 100%;
     padding: 0em;
     display: flex;
@@ -273,6 +305,10 @@ span {
     height: 50px;
     width: auto;
   }
-
-  
+  .code-container {
+    display: block;
+  }
+  #copy-icon {
+    margin-inline: auto 1.4em;
+  }
 }
