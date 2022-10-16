@@ -7,7 +7,7 @@
 <h1 align="center"> gradientiser-BgGenerator </h1>
 
 
-This is a open source CSS gradient background generator. Hope it will help the community to get a beautiful background in just one click. The dynamic gradient backgroundIt is based on generating css from JavaScript dom manipulation. The randomly generated background is based on using inbuilt random function present in JavaScript and used it to generate hex codes for colors and make it work.
+This is an open source CSS gradient background generator. Hope it will help the community to get a beautiful background in just one click. The dynamic gradient background It is based on generating css from JavaScript dom manipulation. The randomly generated background is based on using inbuilt random function present in JavaScript and used it to generate hex codes for colors and make it work.
 
 This app helps you create a dynamic gradient background in a single click! 
 
