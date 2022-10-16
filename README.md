@@ -40,6 +40,7 @@ Head on over to our [Contributing Guide](https://github.com/Nirbhayparmar/gradie
 <h2 align="center" >Website Demo
 
 <br>
+<br>
   
 <img src="Web.gif" align = "center"
      alt="Website Demo Gif" 
