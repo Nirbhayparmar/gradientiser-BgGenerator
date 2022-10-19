@@ -9,7 +9,6 @@
 }
 
 body {
-
   margin: 0px;
   padding: 0px;
   font-family: 'Poppins', sans-serif;
@@ -34,14 +33,15 @@ body {
 }
 
 .container p{
-    max-width: 80vw;
+    max-width: 70vw;
     margin: auto;
     font-weight: 200;
     margin-bottom: 2rem;
 }
 
 .content {
-  background-color: rgba(255,255,255,0.5);
+  background-color: rgba(255,255,255,0.3);
+  border-radius: 25px;
   width: fit-content;
   margin: 0 auto;
   padding: 0 20px;
@@ -65,7 +65,7 @@ h3 {
 }
 
 #code{
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255, 0.4);
   max-width: 40vw;
   margin: 10px auto;
   padding: 10px;
@@ -97,9 +97,8 @@ button {
   width: 200px;
   height: 65px;
   font-family: "Yanone Kaffeesatz", sans-serif;
-  border: 5px solid rgba(0, 0, 0, 0.5);
   border-radius: 20px;
-  background-color: #333;
+  background-color: rgb(65, 65, 65, 0.5);
   color: white;
   font-size: 0.75rem;
   margin: 30px 0 20px 0;
@@ -108,9 +107,10 @@ button {
   letter-spacing: 0.15rem;
   color: white;
   cursor: pointer;
-  -webkit-box-shadow: 0px 0px 10px 1px rgb(82 69 69);
-  -moz-box-shadow: 0px 0px 10px 1px rgb(82 69 69);
-  box-shadow: 0px 0px 10px 1px rgb(82 69 69);
+  -webkit-box-shadow: 9px 7px 5px rgba(40, 40, 40, 0.77);
+  -moz-box-shadow:    9px 7px 5px rgba(40, 40, 40, 0.77);
+  box-shadow:         2px 2px 4px rgba(40, 40, 40, 0.50);
+  transition: 0.6s;
 }
 
 button:hover {
@@ -182,8 +182,8 @@ span {
 
 @media screen and (max-width: 480px) {
   body {
-    padding: 10px;
-    padding-bottom: 120px;
+    padding-top: 15px;
+    padding-bottom: 40px;
     overflow-x: hidden;
     position: relative;
   }
@@ -274,16 +274,16 @@ span {
     font-size: 0.65rem;
     border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 35px;
-    background-color: rgb(229, 186, 186);
+    background-color: rgb(65, 65, 65, 0.5);
     margin: 10px 0 50px 0;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.15rem;
     color: white;
     cursor: pointer;
-    -webkit-box-shadow: 0px 0px 10px 1px rgb(82 69 69);
-    -moz-box-shadow: 0px 0px 10px 1px rgb(82 69 69);
-    box-shadow: 0px 0px 10px 1px rgb(82 69 69);
+    -webkit-box-shadow: 9px 7px 5px rgba(40, 40, 40, 0.77);
+    -moz-box-shadow:    9px 7px 5px rgba(40, 40, 40, 0.77);
+    box-shadow:         2px 2px 4px rgba(40, 40, 40, 0.50);
   }
 
   button:hover {
