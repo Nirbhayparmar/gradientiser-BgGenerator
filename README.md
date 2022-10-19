@@ -41,7 +41,7 @@ Head on over to our [Contributing Guide](https://github.com/Nirbhayparmar/gradie
 <br>
 <br>
 <p align="center">
-  <img width="100%" src="https://i.imgur.com/sKX9PPo.gif">
+  <img width="100%" src="https://i.imgur.com/uEwuEft.gif">
 </p>
 <br>
 <hr>

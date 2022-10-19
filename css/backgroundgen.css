@@ -9,7 +9,6 @@
 }
 
 body {
-
   margin: 0px;
   padding: 0px;
   font-family: 'Poppins', sans-serif;
@@ -42,7 +41,7 @@ body {
 
 .content {
   background-color: rgba(255,255,255,0.3);
-  border-radius: 40px;
+  border-radius: 25px;
   width: fit-content;
   margin: 0 auto;
   padding: 0 20px;
@@ -183,8 +182,8 @@ span {
 
 @media screen and (max-width: 480px) {
   body {
-    padding: 10px;
-    padding-bottom: 120px;
+    padding-top: 15px;
+    padding-bottom: 40px;
     overflow-x: hidden;
     position: relative;
   }
@@ -275,16 +274,16 @@ span {
     font-size: 0.65rem;
     border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 35px;
-    background-color: rgb(229, 186, 186);
+    background-color: rgb(65, 65, 65, 0.5);
     margin: 10px 0 50px 0;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.15rem;
     color: white;
     cursor: pointer;
-    -webkit-box-shadow: 0px 0px 10px 1px rgb(82 69 69);
-    -moz-box-shadow: 0px 0px 10px 1px rgb(82 69 69);
-    box-shadow: 0px 0px 10px 1px rgb(82 69 69);
+    -webkit-box-shadow: 9px 7px 5px rgba(40, 40, 40, 0.77);
+    -moz-box-shadow:    9px 7px 5px rgba(40, 40, 40, 0.77);
+    box-shadow:         2px 2px 4px rgba(40, 40, 40, 0.50);
   }
 
   button:hover {
