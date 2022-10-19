@@ -15,9 +15,9 @@ This app helps you create a dynamic gradient background in a single click!
 
 ## Technologies Used
 
- - HTML
- - CSS
- - JavaScript
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 <hr> 
  
@@ -37,19 +37,14 @@ We expect everyone to abide by our [Code of Conduct](https://github.com/Nirbhayp
 Head on over to our [Contributing Guide](https://github.com/Nirbhayparmar/gradientiser-BgGenerator/blob/main/contributing.md) to get started! 
 <hr>
 
-<h2 align="center" >Website Demo
-
+<h2 align="center"> Website Demo
 <br>
 <br>
-  
-<img src="Web.gif" align = "center"
-     alt="Website Demo Gif" 
-     height="95%"
-     width="95%">
-</h2>
+<p align="center">
+  <img width="100%" src="https://i.imgur.com/sKX9PPo.gif">
+</p>
 <br>
 <hr>
-  
 
 Visit the live website- [https://nirbhayparmar.github.io/gradientiser-BgGenerator/](https://nirbhayparmar.github.io/gradientiser-BgGenerator/)
 
