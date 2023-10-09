@@ -1,45 +1,49 @@
+<!-- <div align="center">
+  <a href="https://nirbhayparmar.github.io/gradientiser-BgGenerator/">
+    <img src="https://raw.githubusercontent.com/Nirbhayparmar/gradientiser-BgGenerator/main/img/logoo.png" height="200px" width="200px">
+  </a>
+</div> -->
+
+<h1 align="center">:rainbow: Gradientiser BgGenerator :art:</h1>
+
+<p align="center">An open-source CSS gradient background generator that adds beauty to your web projects with a single click! :sparkles:</p>
+
 <div align="center">
-<a href="https://nirbhayparmar.github.io/gradientiser-BgGenerator/">
-<img src="https://raw.githubusercontent.com/Nirbhayparmar/gradientiser-BgGenerator/main/img/logoo.png" height="75%" width="75%">
-</a>
+  <a href="https://nirbhayparmar.github.io/gradientiser-BgGenerator/">:point_right: Visit Website</a>
 </div>
 
-<h2 align="center"> gradientiser-BgGenerator </h2>
+<div align="center">
+  <img src="https://img.shields.io/badge/HTML5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/JavaScript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript">
+</div>
 
+## :information_source: About
 
-This is an open source CSS gradient background generator. Hope it will help the community to get a beautiful background in just one click. The dynamic gradient background It is based on generating css from JavaScript dom manipulation. The randomly generated background is based on using inbuilt random function present in JavaScript and used it to generate hex codes for colors and make it work.
+Gradientiser BgGenerator is a tool that simplifies the process of creating stunning CSS gradient backgrounds. It generates dynamic backgrounds using JavaScript DOM manipulation and random hex color codes, making it easy to enhance the visual appeal of your web projects.
 
-This app helps you create a dynamic gradient background in a single click! 
+## :computer: Technologies Used
 
+- **HTML5** 🌐
+- **CSS3** 🎨
+- **JavaScript** 🚀
 
+## :rocket: How To Use
 
-## Technologies Used
+1. Simply visit the [website](https://nirbhayparmar.github.io/gradientiser-BgGenerator/).
+2. Pick the gradient background of your choice with a single click!
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+The dynamic gradient background is created by generating CSS through JavaScript DOM manipulation. We utilize JavaScript's built-in random function to generate random hex color codes, resulting in beautiful and unique backgrounds! :rainbow:
 
+## :handshake: Contributing
 
- 
- ## How To Use
- 
- -  You can just visit the [website](https://nirbhayparmar.github.io/gradientiser-BgGenerator/) where we have hosted our code to pick the background of your choosing easily! 
- 
-The dynamic gradient background is based on generating the CSS via JavaScript DOM manipulation. We use the inbuilt random function present in JavaScript to randomly generate hex colors which we use to build our backgrounds! 
+We welcome contributions from the community to help improve and grow this open-source project. We :heart: our contributors and are committed to fostering an open, welcoming, and safe environment.
 
-<hr>
+- Read and follow our [Code of Conduct](https://github.com/Nirbhayparmar/gradientiser-BgGenerator/blob/main/CODE_OF_CONDUCT.md).
+- Get started with contributing by visiting our [Contributing Guide](https://github.com/Nirbhayparmar/gradientiser-BgGenerator/blob/main/contributing.md).
 
-## Contributing
-Since this is an open source project, we are actively looking for people to participate and help our project flourish! We <img src="https://emojipedia-us.s3.amazonaws.com/source/microsoft-teams/337/red-heart_2764-fe0f.png" height="22"/> our contributors. We're committed to fostering an open, welcoming, and safe environment in the community.
+## :tv: Website Demo
 
-We expect everyone to abide by our [Code of Conduct](https://github.com/Nirbhayparmar/gradientiser-BgGenerator/blob/main/CODE_OF_CONDUCT.md). Please read and follow it. 
+![Website Demo](https://i.imgur.com/uEwuEft.gif)
 
-Head on over to our [Contributing Guide](https://github.com/Nirbhayparmar/gradientiser-BgGenerator/blob/main/contributing.md) to get started! 
-<hr>
-
-## Website Demo 
-<p align="center">
-  <img width="100%" src="https://i.imgur.com/uEwuEft.gif">
-</p>
-
-**Visit the [live website](https://nirbhayparmar.github.io/gradientiser-BgGenerator )**
+**:point_right: [Visit the live website](https://nirbhayparmar.github.io/gradientiser-BgGenerator) to try it out!**
